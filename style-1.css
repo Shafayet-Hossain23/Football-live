@@ -109,6 +109,7 @@ main {
 .button-1:hover {
     transform: scale(0.75);
     transition-duration: 1s;
+    background-color: #4D4D4D;
 }
 
 .button-1 a {

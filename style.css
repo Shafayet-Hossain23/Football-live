@@ -53,6 +53,13 @@ main {
     margin-top: 28px;
 }
 
+.banner-button:hover {
+    transform: scale(0.75);
+    transition-duration: 1s;
+    background-color: #4D4D4D;
+
+}
+
 .banner-image {
     margin-top: 65px;
     margin-left: 24px;
@@ -109,6 +116,7 @@ main {
 .button-1:hover {
     transform: scale(0.75);
     transition-duration: 1s;
+    background-color: #4D4D4D;
 }
 
 .button-1 a {
@@ -202,4 +210,17 @@ margin-left: 5px;
     color: #FFFFFF;
     font-weight: 500px;
     font-size: 12px;
+}
+
+.social-icon {
+    display: flex;
+    justify-content: center;
+    column-gap: 30px;
+    padding-top: 80px;
+
+}
+
+.social-icon a {
+    text-decoration: none;
+    color: white;
 }
